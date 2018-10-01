@@ -37,7 +37,6 @@ Recommended usage as follows:
 ```
 
 
-
 ## Properties
 
 | (Class) Property    |  Expected Type  | Proposal   | Description                                                         |
