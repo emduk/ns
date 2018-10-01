@@ -21,6 +21,20 @@ Recommended usage as follows:
   "name": "Tai chi Class",
   "url": "http://www.example.org/events/1",
   "emduk:isWheelchairAccessible": true,
+  "emduk:specialRequirements": [
+    {
+      "type": "Concept",
+      "id": "http://data.emduk.org/special-requirements#736f74df-0c3f-4314-9bd5-eec6b9c2f34f",
+      "prefLabel": "Adult Education",
+      "inScheme": "http://data.emduk.org/special-requirements"
+    },
+    {
+      "type": "Concept",
+      "id": "http://data.emduk.org/special-requirements#e5db28d6-93ef-463e-8626-f143f55f619c",
+      "prefLabel": "Autism",
+      "inScheme": "http://data.emduk.org/special-requirements"
+    }
+  ],
   "location": {
     "type": "Place",
     "name": "ExampleCo Gym Kingswood",
