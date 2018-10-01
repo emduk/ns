@@ -50,6 +50,7 @@ Recommended usage as follows:
 }
 ```
 
+# Namespace
 
 ## Properties
 
