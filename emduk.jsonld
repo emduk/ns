@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://openactive.io/extension",
+    { "emduk": "http://data.emduk.org/ns#" }
+  ],
+  "@graph": [
+    {
+      "id": "emduk:specialRequirements",
+      "type": "Property",
+      "label": "specialRequirements",
+      "comment": "List of related special requirements from a controlled vocabulary.",
+      "domainIncludes": [ "schema:Event" ],
+      "rangeIncludes": [ "skos:Concept" ],
+      "githubIssue": "https://github.com/openactive/ns-beta/issues/20"
+    },
+    {
+      "id": "emduk:isWheelchairAccessible",
+      "type": "Property",
+      "label": "isWheelchairAccessible",
+      "comment": "A property that details whether the event is suitable for wheelchair access. Placed on Event as this field could be used to detail whether the Event is suitable, as well as the Place.",
+      "domainIncludes": [ "schema:Event" ],
+      "rangeIncludes": [ "schema:Boolean" ],
+      "githubIssue": "https://github.com/openactive/ns-beta/issues/21"
+    }
+  ]
+}
