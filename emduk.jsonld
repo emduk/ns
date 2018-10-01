@@ -11,7 +11,7 @@
       "comment": "List of related special requirements from the controlled vocabulary http://data.emduk.org/special-requirements/.",
       "domainIncludes": [ "schema:Event" ],
       "rangeIncludes": [ "skos:Concept" ],
-      "githubIssue": "https://github.com/openactive/ns-beta/issues/20"
+      "githubIssue": "https://github.com/openactive/modelling-opportunity-data/issues/67"
     },
     {
       "id": "emduk:isWheelchairAccessible",
@@ -20,7 +20,7 @@
       "comment": "A property that details whether the event is suitable for wheelchair access. Placed on Event as this field could be used to detail whether the Event is suitable, as well as the Place.",
       "domainIncludes": [ "schema:Event" ],
       "rangeIncludes": [ "schema:Boolean" ],
-      "githubIssue": "https://github.com/openactive/ns-beta/issues/21"
+      "githubIssue": "https://github.com/openactive/modelling-opportunity-data/issues/166"
     }
   ]
 }
