@@ -8,7 +8,7 @@
       "id": "emduk:specialRequirements",
       "type": "Property",
       "label": "specialRequirements",
-      "comment": "List of related special requirements from a controlled vocabulary.",
+      "comment": "List of related special requirements from the controlled vocabulary http://data.emduk.org/special-requirements/.",
       "domainIncludes": [ "schema:Event" ],
       "rangeIncludes": [ "skos:Concept" ],
       "githubIssue": "https://github.com/openactive/ns-beta/issues/20"
