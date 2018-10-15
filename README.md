@@ -56,6 +56,5 @@ Recommended usage as follows:
 
 | (Class) Property    |  Expected Type  | Proposal   | Description                                                         |
 |---------------------|-----------------|------------|---------------------------------------------------------------------|
-| ([`schema:Event`](https://schema.org/Event)) <br/> `emduk:isWheelchairAccessible` | [`schema:Boolean`](https://schema.org/Boolean) | [#166](https://github.com/openactive/modelling-opportunity-data/issues/166) | A property that details whether the event is suitable for wheelchair access. Placed on Event as this field could be used to detail whether the Event is suitable, as well as the Place. |
 | ([`schema:Event`](https://schema.org/Event)) <br/> `emduk:specialRequirements` | [`skos:Concept`](http://www.w3.org/2004/02/skos/core#Concept) | [#67](https://github.com/openactive/modelling-opportunity-data/issues/67) | List of related special requirements from the controlled vocabulary http://data.emduk.org/special-requirements/. |
 
