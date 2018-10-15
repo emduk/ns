@@ -20,7 +20,6 @@ Recommended usage as follows:
   "type": "SessionSeries",
   "name": "Tai chi Class",
   "url": "http://www.example.org/events/1",
-  "emduk:isWheelchairAccessible": true,
   "emduk:specialRequirements": [
     {
       "type": "Concept",
