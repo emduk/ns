@@ -20,7 +20,7 @@ Recommended usage as follows:
   "type": "SessionSeries",
   "name": "Tai chi Class",
   "url": "http://www.example.org/events/1",
-  "emduk:specialRequirements": [
+  "emduk:specialRequirement": [
     {
       "type": "Concept",
       "id": "http://data.emduk.org/special-requirements#736f74df-0c3f-4314-9bd5-eec6b9c2f34f",
@@ -55,5 +55,5 @@ Recommended usage as follows:
 
 | (Class) Property    |  Expected Type  | Proposal   | Description                                                         |
 |---------------------|-----------------|------------|---------------------------------------------------------------------|
-| ([`schema:Event`](https://schema.org/Event)) <br/> `emduk:specialRequirements` | [`skos:Concept`](http://www.w3.org/2004/02/skos/core#Concept) | [#67](https://github.com/openactive/modelling-opportunity-data/issues/67) | List of related special requirements from the controlled vocabulary http://data.emduk.org/special-requirements/. |
+| ([`schema:Event`](https://schema.org/Event)) <br/> `emduk:specialRequirement` | [`skos:Concept`](http://www.w3.org/2004/02/skos/core#Concept) | [#67](https://github.com/openactive/modelling-opportunity-data/issues/67) | List of related special requirements from the controlled vocabulary http://data.emduk.org/special-requirements/. |
 
