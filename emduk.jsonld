@@ -5,9 +5,9 @@
   ],
   "@graph": [
     {
-      "id": "emduk:specialRequirements",
+      "id": "emduk:specialRequirement",
       "type": "Property",
-      "label": "specialRequirements",
+      "label": "specialRequirement",
       "comment": "List of related special requirements from the controlled vocabulary http://data.emduk.org/special-requirements/.",
       "domainIncludes": [ "schema:Event" ],
       "rangeIncludes": [ "skos:Concept" ],
