@@ -1,14 +1,14 @@
 {
   "@context": [
     "https://openactive.io/extension",
-    { "emduk": "http://data.emduk.org/ns#" }
+    { "emduk": "https://data.emduk.org/ns#" }
   ],
   "@graph": [
     {
       "id": "emduk:specialRequirement",
       "type": "Property",
       "label": "specialRequirement",
-      "comment": "List of related special requirements from the controlled vocabulary http://data.emduk.org/special-requirements/.",
+      "comment": "List of related special requirements from the controlled vocabulary https://data.emduk.org/special-requirements/.",
       "domainIncludes": [ "schema:Event" ],
       "rangeIncludes": [ "skos:Concept" ],
       "githubIssue": "https://github.com/openactive/modelling-opportunity-data/issues/67"
