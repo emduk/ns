@@ -12,6 +12,15 @@
       "domainIncludes": [ "schema:Event" ],
       "rangeIncludes": [ "skos:Concept" ],
       "githubIssue": "https://github.com/openactive/modelling-opportunity-data/issues/67"
+    },
+    {
+      "id": "emduk:excludeFromLicense",
+      "type": "Property",
+      "label": "excludeFromLicense",
+      "comment": "Exclude a particular Event from the license applied to the feed.",
+      "domainIncludes": [ "schema:Event" ],
+      "rangeIncludes": [ "schema:Boolean" ]
     }
   ]
 }
+
